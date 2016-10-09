@@ -1,5 +1,6 @@
 var Promise = require('bluebird');
 var readline = require('readline');
+// var colors = require('colors');
 
 module.exports = function() {
 
@@ -18,6 +19,7 @@ module.exports = function() {
 			    var line="";	
 				var rl = readline.createInterface(process.stdin, process.stdout);
 				rl.setPrompt(message);
+				//console.log(message.red);
 				rl.prompt();
 				rl.on('line', function(line) {
 			     	returnLine = line;

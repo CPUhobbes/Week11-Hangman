@@ -1,4 +1,3 @@
-var Promiser = require('bluebird');
 var gameJS = require('./game.js')();
 var wordJS = require('./word.js')();
 var letterJS = require('./letter.js')();

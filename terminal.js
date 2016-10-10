@@ -5,7 +5,6 @@ var readline = require('readline');
 module.exports = function() {
 
 	this.Terminal= function(){
-		var returnLine="";
 
 		this.reset = function() {
 		    return new Promise(function(resolve, reject) {
@@ -28,13 +27,6 @@ module.exports = function() {
 				});
 			}); 
 		}
-		
-		this.getLine = function() {
-		    return new Promise(function(resolve, reject) {
-		        resolve("returnLine");
-		    });
-		}
-
 	}
 }
 

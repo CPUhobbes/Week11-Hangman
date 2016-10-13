@@ -1,3 +1,4 @@
+//Export Random Word
 module.exports = function() { 
 
 	//Get a new word constructor/object

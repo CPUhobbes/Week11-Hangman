@@ -1,6 +1,6 @@
 //Terminal Functions
 var readline = require('readline');
-var Promise = require('es6-promise').Promise;
+//var Promise = require('es6-promise').Promise;  //add package if not using ES6 nodejs
 
 module.exports = function() {
 
